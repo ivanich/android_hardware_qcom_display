@@ -11,8 +11,8 @@ else
 ifneq ($(filter msm8226 msm8x26,$(TARGET_BOARD_PLATFORM)),)
     include $(call all-named-subdir-makefiles,msm8226)
 else
-    #This is for 8960 based platforms
-    include $(call all-named-subdir-makefiles,msm8960)
+    #This is for 8660 based platforms
+    include $(call all-named-subdir-makefiles,msm8660)
 endif
 endif
 endif
